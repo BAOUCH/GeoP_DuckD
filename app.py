@@ -21,7 +21,7 @@ duckdb.load_extension("spatial", connection=con)
 sql = """
 CREATE TABLE IF NOT EXISTS  rides AS
 SELECT *
-FROM 'internet-speeds.parquet'
+FROM 'internet-speeds1.parquet'
 """
 con.execute(sql)
 
