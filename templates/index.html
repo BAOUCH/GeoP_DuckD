@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte interactive</title>
+</head>
+<body>
+    <h1>Carte interactive avec GeoParquet</h1>
+    <!-- Afficher la carte générée -->
+    <div id="map-container">
+        {{ map_html|safe }} <!-- Carte générée directement dans la page -->
+    </div>
+    <button onclick="window.location.href='#'">Afficher le layer sur la carte</button>
+</body>
+</html>
